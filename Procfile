@@ -1,0 +1,1 @@
+web: gunicorn new_Django_project.wsgi
