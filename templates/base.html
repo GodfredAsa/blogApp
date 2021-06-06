@@ -1,0 +1,27 @@
+{% load static %}
+
+{% include 'head.html' %}
+<!-- body starts here  -->
+  <!-- ======= Top Bar ======= -->
+{% block topbar %}
+  {% include 'topbar.html' %}
+
+{% endblock topbar %}
+
+
+
+
+  <!-- ======= Display Section ======= -->
+  {% include 'display.html' %}
+
+
+
+  {% block body %}
+
+  
+  {% endblock body %}
+
+
+
+  <!-- ======= Footer with script links  ======= -->
+  {% include 'footer.html' %}

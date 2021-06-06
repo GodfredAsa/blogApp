@@ -1,0 +1,8 @@
+category,description,f_name,l_name,tag,user_name,pass,conf_pass,title,category,body,publication_date,tag,is_published,author
+category,,author,,tag,Users,,,blogEntry,,,,,,
+Animal Science,Talks about animals,Anita ,Osei,taganet,anitaosei,anita,anita,Animals,category,Lorem orem lorem,publication date,tag,TRUE,author
+Animal Science,Talks about animals,Anita ,Morsa,tagmorsa,anitamorsa,anita,anita,Animals,category,Lorem orem lorem,publication date,tag,FALSE,author
+Animal Science,Talks about animals,Anita ,Banaman,tagbanaman,anitabanaman,anita,anita,Animals,category,Lorem orem lorem,publication date,tag,TRUE,author
+Animal Science,Talks about animals,Anita ,York,tagyork,anitayork,anita,anita,Animals,category,Lorem orem lorem,publication date,tag,TRUE,author
+Animal Science,Talks about animals,Eliza,Nelson,tagnelson,elizanels,elisa,elisa,Biology,category,Lorem orem lorem,publication date,tag,TRUE,author
+Animal Science,Talks about animals,Angela,Cheah,tagangel,angel,angel,angel,Cooking,category,Lorem orem lorem,publication date,tag,TRUE,author

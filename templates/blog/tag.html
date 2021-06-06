@@ -1,0 +1,39 @@
+{% load static %}
+
+{% include 'head.html' %}
+<!-- body starts here  -->
+  <!-- ======= Top Bar ======= -->
+{% include 'topbar.html' %}
+
+
+
+
+  <!-- ======= Display Section ======= -->
+  {% include 'display.html' %}
+
+
+
+  {% block body %}
+
+  <div class="container m-5">
+      <div class="m-5">
+        <div class="container m-4">
+           <form action="" method = 'POST'>
+            {% csrf_token %}
+            {{form.tag}}
+            <div class="container text-center">
+                <button class="btn btn-md btn-primary m-4"> Add Tag</button>
+            </div>
+           </form>
+          </div>
+      </div>
+  </div>
+
+
+  
+  {% endblock body %}
+
+
+
+  <!-- ======= Footer with script links  ======= -->
+  {% include 'footer.html' %}
